@@ -1,0 +1,27 @@
+$originalBackgroundColor : darkblue;
+$originalTextColor: white;
+$originalBorder: 1px solid gray;
+$originalWidth: 60px;
+$originalHeight: 25px;
+$hoverBackgroundColor: lighter;
+$hoverTextColor: white;
+$hoverBorder: 5px solid red;
+$hoverWidth: 60px;
+$hoverHeight: 25px;
+
+.button {
+
+  background: $originalBackgroundColor;
+  color: $originalTextColor;
+  border: $originalBorder;
+  width: $originalWidth;
+  height: $originalHeight;
+  width: $originalWidth;
+  &:hover {
+    background: $hoverBackgroundColor;
+    color: $hoverTextColor;
+    border: $hoverBorder;
+    width: $hoverWidth;
+    height: $hoverHeight;
+  }
+}
